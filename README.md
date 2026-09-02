@@ -1,14 +1,14 @@
 <div align="center">
 
-<!-- HEADER BANNER TECH -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,6,12,24&height=240&section=header&text=Christian%20Ferrin&fontSize=46&fontAlignY=36&fontAlign=50&desc=Chief%20Technology%20Officer%20%7C%20DevOps%20%26%20Platform%20Architect&descFontSize=20&descAlignY=60&descAlign=50&theme=tokyonight" width="100%" />
+<!-- HEADER BANNER VECTORIAL LOCAL (0ms LAG / NUNCA FALLA) -->
+<img src="./header_banner.svg" width="100%" alt="Christian Ferrin - CTO & DevOps Platform Architect" />
 
-<br/>
+<br/><br/>
 
 <!-- BADGES DE CONTACTO -->
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Christian%20Ferrin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/christian-ferr%C3%ADn-alvarez-2576963b8/)
 [![GitHub](https://img.shields.io/badge/GitHub-hxcdevnull-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hxcdevnull)
-[![Email](https://img.shields.io/badge/Email-ferrinalvarezchris%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ferrinalvarezchris@gmail.com)
+[![Email](https://img.shields.io/badge/Email-christian%40ounalogics.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:christian@ounalogics.com)
 
 <br/>
 
@@ -89,13 +89,15 @@ Engineered high-performance REST APIs with FastAPI and integrated PostGIS spatia
 
 <div align="center">
 
-<!-- FOOTER BANNER ANIMADO -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,6,12,24&height=120&section=footer&theme=tokyonight" width="100%" />
+<!-- FOOTER BANNER VECTORIAL LOCAL -->
+<img src="./footer_banner.svg" width="100%" alt="Footer Banner" />
+
+<br/><br/>
 
 ### 🤝 Let's Connect & Build Resilient Systems
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/christian-ferr%C3%ADn-alvarez-2576963b8/)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hxcdevnull)
-[![Email](https://img.shields.io/badge/Email-Get%20in%20Touch-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ferrinalvarezchris@gmail.com)
+[![Email](https://img.shields.io/badge/Email-christian%40ounalogics.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:christian@ounalogics.com)
 
 </div>
