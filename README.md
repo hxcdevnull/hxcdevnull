@@ -45,18 +45,18 @@ Executive technologist and hands-on Platform/DevOps Architect specializing in de
 
 ## 📈 Engineering Excellence & DORA Benchmark
 
-```
-╔═══════════════════════════════════════════════════════════════════════════════════╗
-║  METRIC                         BENCHMARK               IMPACT                    ║
-╠═══════════════════════════════════════════════════════════════════════════════════╣
-║  🚀 Deployment Frequency        Multiple / Day          Continuous Flow           ║
-║  ⏱️ Lead Time for Changes        < 15 Minutes            Rapid Feedback Loops      ║
-║  🛡️ Mean Time to Recovery (MTTR) < 5 Minutes             Automated Rollback        ║
-║  🎯 Change Failure Rate         < 0.5%                  Pre-Flight Health Checks  ║
-║  💰 Cloud FinOps Optimization   ~35% Cost Savings       Resource Right-Sizing     ║
-║  ⚡ API Response P95            < 45ms                  FastAPI Async Engine      ║
-╚═══════════════════════════════════════════════════════════════════════════════════╝
-```
+<div align="center">
+
+| Metric | Target / Benchmark | Strategic Impact |
+| :--- | :--- | :--- |
+| **🚀 Deployment Frequency** | `Multiple / Day` | Continuous Feature Flow & Quick Turnaround |
+| **⏱️ Lead Time for Changes** | `< 15 Minutes` | Rapid Feedback Loops (Commit to Production) |
+| **🛡️ Mean Time to Recovery (MTTR)** | `< 5 Minutes` | Automated Zero-Downtime Rollbacks |
+| **🎯 Change Failure Rate** | `< 0.5%` | Pre-Flight Automated Validation Matrix |
+| **💰 Cloud FinOps Optimization** | `~35% Cost Savings` | Compute & GPU Resource Right-Sizing |
+| **⚡ API Response Latency (P95)** | `< 45ms` | High-Throughput Async FastAPI Core |
+
+</div>
 
 ---
 
