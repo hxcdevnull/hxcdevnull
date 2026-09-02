@@ -39,7 +39,7 @@
   <text x="500" y="125" text-anchor="middle" fill="url(#textGrad)" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="700" letter-spacing="0.5">Chief Technology Officer &amp; DevOps Platform Architect</text>
 
   <!-- Specialty Badges Row -->
-  <text x="500" y="165" text-anchor="middle" fill="#94A3B8" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" letter-spacing="0.8">Self-Hosted AI &amp; Chatbots · Geospatial Data Engines · Cloud Platforms · Containerization</text>
+  <text x="500" y="165" text-anchor="middle" fill="#94A3B8" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" font-weight="600" letter-spacing="0.6">Self-Hosted AI &amp; Chatbots · n8n Automation Junkie · InSAR Radar Engines · Cloud Infrastructure</text>
 
   <!-- Bottom Accent Divider Line -->
   <path d="M250 188 H750" stroke="url(#accentLine)" stroke-width="1.5"/>

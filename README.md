@@ -1,6 +1,6 @@
 <div align="center">
 
-<!-- HEADER BANNER VECTORIAL LOCAL (0ms LAG / NUNCA FALLA) -->
+<!-- HEADER BANNER VECTORIAL LOCAL -->
 <img src="./header_banner.svg" width="100%" alt="Christian Ferrin - CTO & DevOps Platform Architect" />
 
 <br/><br/>
@@ -12,7 +12,7 @@
 
 <br/>
 
-> *"Bridging executive technical strategy, resilient platform engineering, self-hosted AI, and high-velocity systems architecture."*
+> *"Bridging executive technical strategy, resilient platform engineering, self-hosted AI, and hyper-automated workflow architectures."*
 
 </div>
 
@@ -20,15 +20,15 @@
 
 ## 🏛️ Executive Summary & Core Pillars
 
-Executive technologist and hands-on Platform/DevOps Architect specializing in designing resilient distributed systems, mission-critical telemetry/geospatial data platforms, self-hosted AI systems, and high-performance engineering cultures.
+Executive technologist and hands-on Platform/DevOps Architect specializing in designing resilient distributed systems, mission-critical telemetry/geospatial data platforms, self-hosted AI systems, and complex n8n automation pipelines.
 
 <br/>
 
 <div align="center">
 
-| 🚀 Leadership & Strategy | 🤖 Self-Hosted AI & Chatbots | ⚡ Platform & DevOps | 🛰️ Geointelligence & Data |
+| 🚀 Leadership & Strategy | ⚙️ Automation & n8n | 🤖 Self-Hosted AI & LLMs | 🛰️ Geointelligence & DevOps |
 | :--- | :--- | :--- | :--- |
-| • Architecture Governance<br/>• Team Scaling & Mentorship<br/>• FinOps & Cost Economics | • Local LLMs (Ollama / vLLM)<br/>• Conversational AI Agents<br/>• RAG & pgvector Search | • Docker Containerization<br/>• Multi-Stage CI/CD<br/>• Nginx Hardening & SSL | • InSAR Satellite Telemetry<br/>• Spatial Big Data Engines<br/>• Predictive Risk Models |
+| • Architecture Governance<br/>• Team Scaling & Mentorship<br/>• FinOps & Cost Economics | • Self-Hosted n8n Orchestration<br/>• Event-Driven Webhooks<br/>• Multi-System ETL & Sync | • Local LLMs (Ollama / vLLM)<br/>• Conversational AI Agents<br/>• RAG & pgvector Search | • InSAR Satellite Telemetry<br/>• Docker & CI/CD Pipelines<br/>• Nginx Hardening & SRE |
 
 </div>
 
@@ -46,6 +46,7 @@ Executive technologist and hands-on Platform/DevOps Architect specializing in de
 
 | Domain | Core Ecosystem |
 | :--- | :--- |
+| **Workflow Automation & ETL** | `n8n (Self-Hosted & Production Orchestration)` `Event-Driven Webhooks` `API Middleware` `Automated Notification Dispatchers` |
 | **Self-Hosted AI & LLMs** | `Local LLM Serving (Ollama, vLLM)` `RAG Pipelines` `pgvector` `Conversational Chatbots` `Autonomous AI Agents` |
 | **Containers & Virtualization** | `Docker` `Docker Compose` `Multi-Stage Image Optimization` `Rootless Containers` |
 | **Servers & OS Administration** | `Linux (Debian/Ubuntu)` `Bash / Shell Scripting` `Systemd Services` `Nginx Reverse Proxy` |
@@ -69,6 +70,12 @@ Executive technologist and hands-on Platform/DevOps Architect specializing in de
 ## 🌟 Key Initiatives & Impact Areas
 
 <details open>
+<summary><b>⚙️ End-to-End Workflow Automation & n8n Orchestration</b></summary>
+<br/>
+Designed and maintained enterprise-grade, self-hosted <b>n8n</b> automation infrastructure. Engineered complex event-driven webhook pipelines connecting telemetry engines, database events, multi-channel notification dispatchers (Telegram, Email, Webhooks), and automated data cleansing workflows—eliminating manual operational overhead.
+</details>
+
+<details open>
 <summary><b>🤖 Self-Hosted AI, Conversational Chatbots & RAG Systems</b></summary>
 <br/>
 Architected and deployed private, self-hosted LLM inference engines (Ollama / vLLM) and real-time conversational chatbots integrated with PostgreSQL/pgvector. Implemented Retrieval-Augmented Generation (RAG) architectures to enable intelligent automated querying, synthesis of geospatial reports, and autonomous agent orchestration without external API data leakage.
@@ -84,12 +91,6 @@ Designed and engineered end-to-end data processing pipelines for high-volume sat
 <summary><b>⚡ Containerized Microservices & Infrastructure Hardening</b></summary>
 <br/>
 Implemented hardened Linux server topologies using container isolation, Nginx reverse proxying with automated TLS rotation, optimized multi-stage Docker builds, and strict environment configuration governance.
-</details>
-
-<details open>
-<summary><b>🛡️ Scalable API & Spatial Database Architecture</b></summary>
-<br/>
-Engineered high-performance REST APIs with FastAPI and integrated PostGIS spatial indexing for instant geographic query execution over dense multi-polygon vector datasets.
 </details>
 
 ---
