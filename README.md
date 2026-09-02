@@ -60,7 +60,7 @@ Executive technologist and hands-on Platform/DevOps Architect specializing in de
 ## 🏗️ Production Architecture & Delivery Blueprint
 
 <div align="center">
-  <img src="./architecture.svg" width="100%" alt="Production Architecture Blueprint" />
+  <img src="./system_architecture.svg" width="100%" alt="Production Architecture Blueprint" />
 </div>
 
 ---
