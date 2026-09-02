@@ -9,11 +9,20 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Christian%20Ferrin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/christian-ferr%C3%ADn-alvarez-2576963b8/)
 [![GitHub](https://img.shields.io/badge/GitHub-hxcdevnull-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hxcdevnull)
 [![Email](https://img.shields.io/badge/Email-christian%40ounalogics.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:christian@ounalogics.com)
+[![Role](https://img.shields.io/badge/Role-CTO%20%7C%20Platform%20Architect-8A2BE2?style=for-the-badge&logo=target&logoColor=white)](#)
 
 <br/>
 
 > *"Bridging executive technical strategy, resilient platform engineering, self-hosted AI, and hyper-automated workflow architectures."*
 
+</div>
+
+---
+
+## ⚡ Live Telemetry & Platform Ops Center
+
+<div align="center">
+  <img src="./terminal_telemetry.svg" width="100%" alt="Production Platform Telemetry Terminal" />
 </div>
 
 ---
@@ -34,7 +43,24 @@ Executive technologist and hands-on Platform/DevOps Architect specializing in de
 
 ---
 
-## 🛠️ Engineering Arsenal & Tooling
+## 📈 Engineering Excellence & DORA Benchmark
+
+```
+╔═══════════════════════════════════════════════════════════════════════════════════╗
+║  METRIC                         BENCHMARK               IMPACT                    ║
+╠═══════════════════════════════════════════════════════════════════════════════════╣
+║  🚀 Deployment Frequency        Multiple / Day          Continuous Flow           ║
+║  ⏱️ Lead Time for Changes        < 15 Minutes            Rapid Feedback Loops      ║
+║  🛡️ Mean Time to Recovery (MTTR) < 5 Minutes             Automated Rollback        ║
+║  🎯 Change Failure Rate         < 0.5%                  Pre-Flight Health Checks  ║
+║  💰 Cloud FinOps Optimization   ~35% Cost Savings       Resource Right-Sizing     ║
+║  ⚡ API Response P95            < 45ms                  FastAPI Async Engine      ║
+╚═══════════════════════════════════════════════════════════════════════════════════╝
+```
+
+---
+
+## 🛠️ Engineering Arsenal & Tech Stack
 
 <div align="center">
 
@@ -44,16 +70,16 @@ Executive technologist and hands-on Platform/DevOps Architect specializing in de
 
 <br/><br/>
 
-| Domain | Core Ecosystem |
+| Domain | Core Ecosystem & Tooling |
 | :--- | :--- |
-| **Workflow Automation & ETL** | `n8n (Self-Hosted & Production Orchestration)` `Event-Driven Webhooks` `API Middleware` `Automated Notification Dispatchers` |
-| **Self-Hosted AI & LLMs** | `Local LLM Serving (Ollama, vLLM)` `RAG Pipelines` `pgvector` `Conversational Chatbots` `Autonomous AI Agents` |
-| **Containers & Virtualization** | `Docker` `Docker Compose` `Multi-Stage Image Optimization` `Rootless Containers` |
-| **Servers & OS Administration** | `Linux (Debian/Ubuntu)` `Bash / Shell Scripting` `Systemd Services` `Nginx Reverse Proxy` |
+| **Workflow Automation & ETL** | `n8n (Self-Hosted Production Orchestration)` `Event-Driven Webhooks` `API Middleware` `Automated Notification Dispatchers (Telegram/Email)` |
+| **Self-Hosted AI & LLMs** | `Local LLM Serving (Ollama, vLLM)` `RAG Pipelines` `pgvector Semantic Search` `Conversational Chatbots` `Autonomous AI Agents` |
+| **Containers & Virtualization** | `Docker` `Docker Compose` `Multi-Stage Image Optimization` `Container Isolation & Security` |
+| **Servers & OS Administration** | `Linux (Debian/Ubuntu)` `Bash / Shell Scripting` `Systemd Services` `Nginx Reverse Proxy & SSL Termination` |
 | **Backend & Spatial Engines** | `Python (FastAPI, Flask)` `Node.js` `RESTful & WebSocket APIs` `PostgreSQL` `PostGIS Spatial Indexing` |
 | **CI/CD & DevOps Automation** | `Git` `GitHub Actions` `Automated Deployment Pipelines` `Environment Orchestration` |
-| **Frontend & Visualization** | `React` `JavaScript (ES6+)` `Tailwind CSS` `Vite` `Interactive Map Engines & Chat UI` |
-| **Specialized Processing** | `InSAR Satellite Radar Analytics` `Geospatial Big Data` `Telemetry Risk Models` |
+| **Frontend & Visualization** | `React` `JavaScript (ES6+)` `Tailwind CSS` `Vite` `Interactive Mapbox / MapLibre Engines` |
+| **Specialized Processing** | `InSAR Satellite Radar Analytics` `Geospatial Big Data` `Subsidence Forecasting & Telemetry Models` |
 
 </div>
 
@@ -67,7 +93,13 @@ Executive technologist and hands-on Platform/DevOps Architect specializing in de
 
 ---
 
-## 🌟 Key Initiatives & Impact Areas
+## 🌟 Flagship Initiatives & Technical Deep Dives
+
+<details open>
+<summary><b>🛰️ Geospatial Intelligence & InSAR Radar Telemetry (Prometeo Engine)</b></summary>
+<br/>
+Architected and engineered high-throughput processing pipelines for multi-temporal satellite radar telemetry (Sentinel-1 InSAR). Designed millimeter-level predictive ground deformation models, spatial risk classification algorithms, and automated PDF executive dossier generation for critical civil infrastructure.
+</details>
 
 <details open>
 <summary><b>⚙️ End-to-End Workflow Automation & n8n Orchestration</b></summary>
@@ -82,15 +114,9 @@ Architected and deployed private, self-hosted LLM inference engines (Ollama / vL
 </details>
 
 <details open>
-<summary><b>🛰️ Geospatial Intelligence & InSAR Radar Telemetry</b></summary>
+<summary><b>⚡ Containerized Microservices & Zero-Trust Server Hardening</b></summary>
 <br/>
-Designed and engineered end-to-end data processing pipelines for high-volume satellite radar telemetry (InSAR), enabling predictive ground subsidence modeling, infrastructure deformation analysis, and executive geospatial reporting.
-</details>
-
-<details open>
-<summary><b>⚡ Containerized Microservices & Infrastructure Hardening</b></summary>
-<br/>
-Implemented hardened Linux server topologies using container isolation, Nginx reverse proxying with automated TLS rotation, optimized multi-stage Docker builds, and strict environment configuration governance.
+Implemented hardened Linux server topologies using container isolation, Nginx reverse proxying with automated TLS rotation (Certbot), optimized multi-stage Docker builds, fail2ban protection, and strict environment configuration governance.
 </details>
 
 ---
@@ -102,7 +128,8 @@ Implemented hardened Linux server topologies using container isolation, Nginx re
 
 <br/><br/>
 
-### 🤝 Let's Connect & Build Resilient Systems
+### 🤝 Fractional CTO Advisory, Architecture & Consulting
+Looking to scale engineering velocity, implement self-hosted AI, or build resilient cloud platforms?
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/christian-ferr%C3%ADn-alvarez-2576963b8/)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hxcdevnull)

@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1020 280" width="1020" height="280" fill="none">
+  <defs>
+    <linearGradient id="termBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090D16"/>
+      <stop offset="100%" stop-color="#030712"/>
+    </linearGradient>
+
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+
+    <filter id="termShadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+
+  <!-- Terminal Window Background -->
+  <rect width="1020" height="280" rx="14" fill="url(#termBg)" stroke="#334155" stroke-width="1.5" filter="url(#termShadow)"/>
+
+  <!-- Top Window Header Bar -->
+  <path d="M0,14 C0,6.268 6.268,0 14,0 L1006,0 C1013.732,0 1020,6.268 1020,14 L1020,38 L0,38 Z" fill="url(#headerGrad)" stroke="#334155" stroke-width="1.5"/>
+
+  <!-- Window Control Dots -->
+  <circle cx="24" cy="19" r="6" fill="#EF4444"/>
+  <circle cx="44" cy="19" r="6" fill="#F59E0B"/>
+  <circle cx="64" cy="19" r="6" fill="#10B981"/>
+
+  <!-- Terminal Title -->
+  <text x="510" y="24" text-anchor="middle" fill="#94A3B8" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="12" font-weight="600" letter-spacing="0.8">christian@cto-workstation: ~/platform-telemetry (production)</text>
+
+  <!-- Terminal Content Lines -->
+  <!-- Line 1: Command prompt -->
+  <text x="30" y="70" fill="#38BDF8" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="700">❯ telemetry-cli</text>
+  <text x="165" y="70" fill="#A855F7" font-family="'JetBrains Mono', monospace" font-size="13">--cluster</text>
+  <text x="245" y="70" fill="#E2E8F0" font-family="'JetBrains Mono', monospace" font-size="13">prometeo-global-prod</text>
+  <text x="430" y="70" fill="#A855F7" font-family="'JetBrains Mono', monospace" font-size="13">--status</text>
+
+  <!-- Line 2: Header Output -->
+  <text x="30" y="105" fill="#10B981" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700">● [SYSTEM STATE] 100% OPERATIONAL</text>
+  <text x="310" y="105" fill="#64748B" font-family="'JetBrains Mono', monospace" font-size="12">│</text>
+  <text x="330" y="105" fill="#F1F5F9" font-family="'JetBrains Mono', monospace" font-size="12">SLA: <tspan fill="#10B981" font-weight="bold">99.99%</tspan></text>
+  <text x="440" y="105" fill="#64748B" font-family="'JetBrains Mono', monospace" font-size="12">│</text>
+  <text x="460" y="105" fill="#F1F5F9" font-family="'JetBrains Mono', monospace" font-size="12">Security: <tspan fill="#38BDF8" font-weight="bold">Zero-Trust / Hardened</tspan></text>
+  <text x="730" y="105" fill="#64748B" font-family="'JetBrains Mono', monospace" font-size="12">│</text>
+  <text x="750" y="105" fill="#F1F5F9" font-family="'JetBrains Mono', monospace" font-size="12">Region: <tspan fill="#F59E0B">US-East / LatAm Edge</tspan></text>
+
+  <!-- Divider line -->
+  <path d="M30 125 H990" stroke="#1E293B" stroke-width="1.5"/>
+
+  <!-- Telemetry Metrics Grid (3 Columns) -->
+  <!-- Col 1: AI & Inference -->
+  <text x="30" y="155" fill="#818CF8" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="bold">🤖 SELF-HOSTED AI &amp; LLMS</text>
+  <text x="30" y="180" fill="#94A3B8" font-family="'JetBrains Mono', monospace" font-size="11.5">├─ Inference Engine: <tspan fill="#FFFFFF" font-weight="bold">vLLM / Ollama</tspan></text>
+  <text x="30" y="202" fill="#94A3B8" font-family="'JetBrains Mono', monospace" font-size="11.5">├─ Vector Retrieval: <tspan fill="#38BDF8" font-weight="bold">pgvector &lt; 25ms</tspan></text>
+  <text x="30" y="224" fill="#94A3B8" font-family="'JetBrains Mono', monospace" font-size="11.5">└─ AI Agents: <tspan fill="#10B981" font-weight="bold">Multi-Tool Swarm</tspan></text>
+
+  <!-- Col 2: Automation & n8n -->
+  <text x="360" y="155" fill="#F59E0B" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="bold">⚙️ WORKFLOW AUTOMATION (n8n)</text>
+  <text x="360" y="180" fill="#94A3B8" font-family="'JetBrains Mono', monospace" font-size="11.5">├─ Active Pipelines: <tspan fill="#FFFFFF" font-weight="bold">140+ Webhooks</tspan></text>
+  <text x="360" y="202" fill="#94A3B8" font-family="'JetBrains Mono', monospace" font-size="11.5">├─ Trigger Event Latency: <tspan fill="#38BDF8" font-weight="bold">&lt; 150ms</tspan></text>
+  <text x="360" y="224" fill="#94A3B8" font-family="'JetBrains Mono', monospace" font-size="11.5">└─ Auto-Reporting: <tspan fill="#10B981" font-weight="bold">PDF &amp; Telemetry</tspan></text>
+
+  <!-- Col 3: Geospatial & InSAR -->
+  <text x="700" y="155" fill="#F43F5E" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="bold">🛰️ INSAR &amp; GEO-SPATIAL ENGINE</text>
+  <text x="700" y="180" fill="#94A3B8" font-family="'JetBrains Mono', monospace" font-size="11.5">├─ Radar Ingestion: <tspan fill="#FFFFFF" font-weight="bold">Sentinel-1 InSAR</tspan></text>
+  <text x="700" y="202" fill="#94A3B8" font-family="'JetBrains Mono', monospace" font-size="11.5">├─ Spatial Index: <tspan fill="#38BDF8" font-weight="bold">PostGIS Quadtree</tspan></text>
+  <text x="700" y="224" fill="#94A3B8" font-family="'JetBrains Mono', monospace" font-size="11.5">└─ Deformation Model: <tspan fill="#10B981" font-weight="bold">Sub-mm Precision</tspan></text>
+
+  <!-- Bottom Command Indicator -->
+  <rect x="30" y="250" width="10" height="15" fill="#38BDF8">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+  <text x="48" y="262" fill="#64748B" font-family="'JetBrains Mono', monospace" font-size="11">Listening for incoming telemetry webhooks &amp; automated jobs...</text>
+</svg>
