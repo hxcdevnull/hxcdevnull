@@ -59,35 +59,9 @@ Executive technologist and hands-on Platform/DevOps Architect specializing in de
 
 ## 🏗️ Production Architecture & Delivery Blueprint
 
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'darkMode': true, 'primaryColor': '#1e293b', 'primaryTextColor': '#f8fafc', 'primaryBorderColor': '#38bdf8', 'lineColor': '#38bdf8', 'secondaryColor': '#0f172a', 'tertiaryColor': '#1e1b4b', 'clusterBkg': '#090d16', 'clusterBorder': '#334155', 'edgeLabelBackground': '#0f172a', 'nodeBorder': '#38bdf8'}}}%%
-flowchart LR
-    subgraph CI["🚀 CI / CD & Deployment Pipeline"]
-        Git["<b>Git Commit</b><br/>Feature / Hotfix"] --> GH["<b>GitHub Actions</b><br/>Build & Lint Matrix"]
-        GH --> Build["<b>Docker OCI</b><br/>Multi-Stage Optimized Image"]
-    end
-
-    subgraph PROD["🌐 Hardened Production Environment (Linux VPS)"]
-        Build --> Deploy["<b>Automated Deploy</b><br/>Docker Compose"]
-        Deploy --> Nginx["<b>Nginx Gateway</b><br/>Reverse Proxy · SSL/TLS (Certbot)"]
-        
-        Nginx -->|"HTTP / REST API"| API["<b>FastAPI Application Server</b><br/>Python Async Worker Engine"]
-        Nginx -->|"Static Assets & SPA"| UI["<b>React Client Application</b><br/>Tailwind CSS + Vite SPA"]
-        
-        API -->|"Spatial Query Optimization"| DB[("<b>PostgreSQL + PostGIS</b><br/>Indexed Geospatial Storage")]
-        API -->|"Telemetry Ingestion"| Engine["<b>InSAR Analytics Engine</b><br/>Satellite Radar Deformation Models"]
-    end
-
-    style Git fill:#1e293b,stroke:#38bdf8,stroke-width:2px,color:#ffffff
-    style GH fill:#1e293b,stroke:#38bdf8,stroke-width:2px,color:#ffffff
-    style Build fill:#1e293b,stroke:#38bdf8,stroke-width:2px,color:#ffffff
-    style Deploy fill:#1e293b,stroke:#10b981,stroke-width:2px,color:#ffffff
-    style Nginx fill:#0f172a,stroke:#10b981,stroke-width:2px,color:#ffffff
-    style API fill:#1e1b4b,stroke:#818cf8,stroke-width:2px,color:#ffffff
-    style UI fill:#1e293b,stroke:#38bdf8,stroke-width:2px,color:#ffffff
-    style DB fill:#31103f,stroke:#f43f5e,stroke-width:2px,color:#ffffff
-    style Engine fill:#1e1b4b,stroke:#818cf8,stroke-width:2px,color:#ffffff
-```
+<div align="center">
+  <img src="https://raw.githubusercontent.com/hxcdevnull/hxcdevnull/main/architecture.svg" width="100%" alt="Production Architecture Blueprint" />
+</div>
 
 ---
 
