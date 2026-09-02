@@ -12,7 +12,7 @@
 
 <br/>
 
-> *"Bridging executive technical strategy, resilient platform engineering, and high-velocity systems architecture."*
+> *"Bridging executive technical strategy, resilient platform engineering, self-hosted AI, and high-velocity systems architecture."*
 
 </div>
 
@@ -20,15 +20,15 @@
 
 ## 🏛️ Executive Summary & Core Pillars
 
-Executive technologist and hands-on Platform/DevOps Architect specializing in designing resilient distributed systems, mission-critical telemetry/geospatial data platforms, and high-performance engineering cultures.
+Executive technologist and hands-on Platform/DevOps Architect specializing in designing resilient distributed systems, mission-critical telemetry/geospatial data platforms, self-hosted AI systems, and high-performance engineering cultures.
 
 <br/>
 
 <div align="center">
 
-| 🚀 Leadership & Strategy | ⚡ Platform & DevOps | 🛰️ Geointelligence & Data | 🛡️ SRE & Reliability |
+| 🚀 Leadership & Strategy | 🤖 Self-Hosted AI & Chatbots | ⚡ Platform & DevOps | 🛰️ Geointelligence & Data |
 | :--- | :--- | :--- | :--- |
-| • Architecture Governance<br/>• Team Scaling & Mentorship<br/>• FinOps & Cost Economics | • Docker Containerization<br/>• Multi-Stage Pipelines<br/>• Automated Deployments | • InSAR Satellite Telemetry<br/>• Spatial Big Data Engines<br/>• Predictive Risk Models | • Nginx Hardening & SSL<br/>• Systemd & Linux Admin<br/>• Zero-Downtime Releases |
+| • Architecture Governance<br/>• Team Scaling & Mentorship<br/>• FinOps & Cost Economics | • Local LLMs (Ollama / vLLM)<br/>• Conversational AI Agents<br/>• RAG & pgvector Search | • Docker Containerization<br/>• Multi-Stage CI/CD<br/>• Nginx Hardening & SSL | • InSAR Satellite Telemetry<br/>• Spatial Big Data Engines<br/>• Predictive Risk Models |
 
 </div>
 
@@ -46,11 +46,12 @@ Executive technologist and hands-on Platform/DevOps Architect specializing in de
 
 | Domain | Core Ecosystem |
 | :--- | :--- |
+| **Self-Hosted AI & LLMs** | `Local LLM Serving (Ollama, vLLM)` `RAG Pipelines` `pgvector` `Conversational Chatbots` `Autonomous AI Agents` |
 | **Containers & Virtualization** | `Docker` `Docker Compose` `Multi-Stage Image Optimization` `Rootless Containers` |
 | **Servers & OS Administration** | `Linux (Debian/Ubuntu)` `Bash / Shell Scripting` `Systemd Services` `Nginx Reverse Proxy` |
-| **Backend & Spatial Engines** | `Python (FastAPI, Flask)` `Node.js` `RESTful APIs` `PostgreSQL` `PostGIS Spatial Indexing` |
+| **Backend & Spatial Engines** | `Python (FastAPI, Flask)` `Node.js` `RESTful & WebSocket APIs` `PostgreSQL` `PostGIS Spatial Indexing` |
 | **CI/CD & DevOps Automation** | `Git` `GitHub Actions` `Automated Deployment Pipelines` `Environment Orchestration` |
-| **Frontend & Visualization** | `React` `JavaScript (ES6+)` `Tailwind CSS` `Vite` `Interactive Map Engines` |
+| **Frontend & Visualization** | `React` `JavaScript (ES6+)` `Tailwind CSS` `Vite` `Interactive Map Engines & Chat UI` |
 | **Specialized Processing** | `InSAR Satellite Radar Analytics` `Geospatial Big Data` `Telemetry Risk Models` |
 
 </div>
@@ -66,6 +67,12 @@ Executive technologist and hands-on Platform/DevOps Architect specializing in de
 ---
 
 ## 🌟 Key Initiatives & Impact Areas
+
+<details open>
+<summary><b>🤖 Self-Hosted AI, Conversational Chatbots & RAG Systems</b></summary>
+<br/>
+Architected and deployed private, self-hosted LLM inference engines (Ollama / vLLM) and real-time conversational chatbots integrated with PostgreSQL/pgvector. Implemented Retrieval-Augmented Generation (RAG) architectures to enable intelligent automated querying, synthesis of geospatial reports, and autonomous agent orchestration without external API data leakage.
+</details>
 
 <details open>
 <summary><b>🛰️ Geospatial Intelligence & InSAR Radar Telemetry</b></summary>
