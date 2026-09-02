@@ -60,7 +60,7 @@ Executive technologist and hands-on Platform/DevOps Architect specializing in de
 ## 🏗️ Production Architecture & Delivery Blueprint
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/hxcdevnull/hxcdevnull/main/architecture.svg" width="100%" alt="Production Architecture Blueprint" />
+  <img src="./architecture.svg" width="100%" alt="Production Architecture Blueprint" />
 </div>
 
 ---
