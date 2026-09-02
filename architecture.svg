@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 410" width="960" height="410" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1020 420" width="1020" height="420" fill="none">
   <defs>
     <!-- Background Gradient -->
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -18,120 +18,120 @@
   </defs>
 
   <!-- Main Canvas Background -->
-  <rect width="960" height="410" rx="16" fill="url(#bgGrad)" stroke="#1E293B" stroke-width="2"/>
+  <rect width="1020" height="420" rx="16" fill="url(#bgGrad)" stroke="#1E293B" stroke-width="2"/>
 
   <!-- Subtle Blueprint Grid -->
   <g opacity="0.06" stroke="#38BDF8" stroke-width="1">
-    <path d="M0 40 H960 M0 80 H960 M0 120 H960 M0 160 H960 M0 200 H960 M0 240 H960 M0 280 H960 M0 320 H960 M0 360 H960" />
-    <path d="M40 0 V410 M80 0 V410 M120 0 V410 M160 0 V410 M200 0 V410 M240 0 V410 M280 0 V410 M320 0 V410 M360 0 V410 M400 0 V410 M440 0 V410 M480 0 V410 M520 0 V410 M560 0 V410 M600 0 V410 M640 0 V410 M680 0 V410 M720 0 V410 M760 0 V410 M800 0 V410 M840 0 V410 M880 0 V410 M920 0 V410" />
+    <path d="M0 40 H1020 M0 80 H1020 M0 120 H1020 M0 160 H1020 M0 200 H1020 M0 240 H1020 M0 280 H1020 M0 320 H1020 M0 360 H1020 M0 400 H1020" />
+    <path d="M40 0 V420 M80 0 V420 M120 0 V420 M160 0 V420 M200 0 V420 M240 0 V420 M280 0 V420 M320 0 V420 M360 0 V420 M400 0 V420 M440 0 V420 M480 0 V420 M520 0 V420 M560 0 V420 M600 0 V420 M640 0 V420 M680 0 V420 M720 0 V420 M760 0 V420 M800 0 V420 M840 0 V420 M880 0 V420 M920 0 V420 M960 0 V420 M1000 0 V420" />
   </g>
 
   <!-- ==================== LEFT SUBGRAPH: CI/CD PIPELINE ==================== -->
-  <rect x="25" y="25" width="280" height="360" rx="12" fill="#0F172A" fill-opacity="0.9" stroke="#334155" stroke-width="1.5"/>
+  <rect x="25" y="25" width="290" height="370" rx="12" fill="#0F172A" fill-opacity="0.9" stroke="#334155" stroke-width="1.5"/>
   <text x="45" y="55" fill="#38BDF8" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="800" letter-spacing="1">🚀 CI / CD AUTOMATION PIPELINE</text>
   
   <!-- Step 1: Git Commit -->
   <g filter="url(#cardShadow)">
-    <rect x="45" y="75" width="240" height="68" rx="8" fill="#1E293B" stroke="#38BDF8" stroke-width="1.5"/>
-    <circle cx="75" cy="109" r="16" fill="#38BDF8" fill-opacity="0.2"/>
-    <text x="75" y="115" text-anchor="middle" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="15" font-weight="bold">⌥</text>
-    <text x="105" y="102" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="14" font-weight="bold">Git Commit / Tag</text>
-    <text x="105" y="122" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11">Feature Branches &amp; Hotfixes</text>
+    <rect x="45" y="75" width="250" height="70" rx="8" fill="#1E293B" stroke="#38BDF8" stroke-width="1.5"/>
+    <circle cx="75" cy="110" r="16" fill="#38BDF8" fill-opacity="0.2"/>
+    <text x="75" y="116" text-anchor="middle" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="15" font-weight="bold">⌥</text>
+    <text x="105" y="103" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="14" font-weight="bold">Git Commit / Tag</text>
+    <text x="105" y="123" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11">Feature Branches &amp; Releases</text>
   </g>
 
   <!-- Arrow 1 -> 2 -->
-  <path d="M165 143 V170" stroke="#38BDF8" stroke-width="2" stroke-linecap="round"/>
-  <polygon points="165,175 160,166 170,166" fill="#38BDF8"/>
+  <path d="M170 145 V172" stroke="#38BDF8" stroke-width="2" stroke-linecap="round"/>
+  <polygon points="170,177 165,168 175,168" fill="#38BDF8"/>
 
   <!-- Step 2: GitHub Actions -->
   <g filter="url(#cardShadow)">
-    <rect x="45" y="177" width="240" height="68" rx="8" fill="#1E293B" stroke="#818CF8" stroke-width="1.5"/>
-    <circle cx="75" cy="211" r="16" fill="#818CF8" fill-opacity="0.2"/>
-    <text x="75" y="217" text-anchor="middle" fill="#818CF8" font-family="system-ui, sans-serif" font-size="15" font-weight="bold">⚡</text>
-    <text x="105" y="204" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="14" font-weight="bold">GitHub Actions</text>
-    <text x="105" y="224" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11">Automated Lint, Test &amp; Security</text>
+    <rect x="45" y="179" width="250" height="70" rx="8" fill="#1E293B" stroke="#818CF8" stroke-width="1.5"/>
+    <circle cx="75" cy="214" r="16" fill="#818CF8" fill-opacity="0.2"/>
+    <text x="75" y="220" text-anchor="middle" fill="#818CF8" font-family="system-ui, sans-serif" font-size="15" font-weight="bold">⚡</text>
+    <text x="105" y="207" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="14" font-weight="bold">GitHub Actions</text>
+    <text x="105" y="227" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11">Automated Test, Lint &amp; Security</text>
   </g>
 
   <!-- Arrow 2 -> 3 -->
-  <path d="M165 245 V272" stroke="#818CF8" stroke-width="2" stroke-linecap="round"/>
-  <polygon points="165,277 160,268 170,268" fill="#818CF8"/>
+  <path d="M170 249 V276" stroke="#818CF8" stroke-width="2" stroke-linecap="round"/>
+  <polygon points="170,281 165,272 175,272" fill="#818CF8"/>
 
   <!-- Step 3: Docker Build -->
   <g filter="url(#cardShadow)">
-    <rect x="45" y="279" width="240" height="68" rx="8" fill="#1E293B" stroke="#38BDF8" stroke-width="1.5"/>
-    <circle cx="75" cy="313" r="16" fill="#38BDF8" fill-opacity="0.2"/>
-    <text x="75" y="319" text-anchor="middle" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="15" font-weight="bold">🐳</text>
-    <text x="105" y="306" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="14" font-weight="bold">Docker Multi-Stage</text>
-    <text x="105" y="326" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11">Optimized Minimal OCI Artifacts</text>
+    <rect x="45" y="283" width="250" height="70" rx="8" fill="#1E293B" stroke="#38BDF8" stroke-width="1.5"/>
+    <circle cx="75" cy="318" r="16" fill="#38BDF8" fill-opacity="0.2"/>
+    <text x="75" y="324" text-anchor="middle" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="15" font-weight="bold">🐳</text>
+    <text x="105" y="311" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="14" font-weight="bold">Docker Multi-Stage</text>
+    <text x="105" y="331" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11">Optimized Minimal OCI Artifacts</text>
   </g>
 
   <!-- ==================== CONNECTOR TO PRODUCTION ==================== -->
-  <path d="M285 313 H345" stroke="url(#blueGlow)" stroke-width="2.5" stroke-dasharray="5 3"/>
-  <polygon points="350,313 342,308 342,318" fill="#38BDF8"/>
-  <rect x="295" y="290" width="48" height="20" rx="4" fill="#030712" stroke="#38BDF8" stroke-width="1"/>
-  <text x="319" y="304" text-anchor="middle" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="9" font-weight="bold">DEPLOY</text>
+  <path d="M295 318 H355" stroke="url(#blueGlow)" stroke-width="2.5" stroke-dasharray="5 3"/>
+  <polygon points="360,318 352,313 352,323" fill="#38BDF8"/>
+  <rect x="303" y="295" width="48" height="20" rx="4" fill="#030712" stroke="#38BDF8" stroke-width="1"/>
+  <text x="327" y="309" text-anchor="middle" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="9" font-weight="bold">DEPLOY</text>
 
   <!-- ==================== RIGHT SUBGRAPH: PRODUCTION VPS ==================== -->
-  <rect x="355" y="25" width="580" height="360" rx="12" fill="#0B1120" fill-opacity="0.9" stroke="#1E293B" stroke-width="1.5"/>
-  <text x="375" y="55" fill="#10B981" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="800" letter-spacing="1">🌐 HARDENED PRODUCTION ENVIRONMENT (LINUX VPS)</text>
+  <rect x="365" y="25" width="630" height="370" rx="12" fill="#0B1120" fill-opacity="0.9" stroke="#1E293B" stroke-width="1.5"/>
+  <text x="385" y="55" fill="#10B981" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="800" letter-spacing="1">🌐 HARDENED PRODUCTION ENVIRONMENT (LINUX VPS)</text>
 
   <!-- TOP GATEWAY: NGINX REVERSE PROXY -->
   <g filter="url(#cardShadow)">
-    <rect x="375" y="75" width="540" height="65" rx="8" fill="#0F172A" stroke="#10B981" stroke-width="2"/>
-    <circle cx="405" cy="107" r="16" fill="#10B981" fill-opacity="0.2"/>
-    <text x="405" y="113" text-anchor="middle" fill="#10B981" font-family="system-ui, sans-serif" font-size="15" font-weight="bold">🛡️</text>
-    <text x="435" y="99" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="15" font-weight="bold">Nginx Reverse Proxy &amp; SSL/TLS Termination</text>
-    <text x="435" y="120" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11">Automated Certbot Renewal · Rate Limiting · DDoS Hardening · Static SPA Cache</text>
+    <rect x="385" y="75" width="590" height="66" rx="8" fill="#0F172A" stroke="#10B981" stroke-width="2"/>
+    <circle cx="415" cy="108" r="16" fill="#10B981" fill-opacity="0.2"/>
+    <text x="415" y="114" text-anchor="middle" fill="#10B981" font-family="system-ui, sans-serif" font-size="15" font-weight="bold">🛡️</text>
+    <text x="445" y="100" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="14.5" font-weight="bold">Nginx Reverse Proxy &amp; SSL/TLS Gateway</text>
+    <text x="445" y="121" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11">Automated Certbot Renewal · Rate Limiting · DDoS Hardening · SPA Static Cache</text>
   </g>
 
   <!-- Paths from Nginx -->
-  <path d="M505 140 V170 H495 V180" stroke="#10B981" stroke-width="2" fill="none"/>
-  <polygon points="495,185 490,176 500,176" fill="#10B981"/>
+  <path d="M525 141 V168 H525 V176" stroke="#10B981" stroke-width="2" fill="none"/>
+  <polygon points="525,181 520,172 530,172" fill="#10B981"/>
 
-  <path d="M780 140 V170 H795 V180" stroke="#38BDF8" stroke-width="2" fill="none"/>
-  <polygon points="795,185 790,176 800,176" fill="#38BDF8"/>
+  <path d="M835 141 V168 H835 V176" stroke="#38BDF8" stroke-width="2" fill="none"/>
+  <polygon points="835,181 830,172 840,172" fill="#38BDF8"/>
 
   <!-- MIDDLE ROW 1: BACKEND APPLICATION SERVER -->
   <g filter="url(#cardShadow)">
-    <rect x="375" y="188" width="250" height="68" rx="8" fill="#1E1B4B" stroke="#818CF8" stroke-width="1.5"/>
-    <circle cx="405" cy="222" r="16" fill="#818CF8" fill-opacity="0.2"/>
-    <text x="405" y="228" text-anchor="middle" fill="#818CF8" font-family="system-ui, sans-serif" font-size="15" font-weight="bold">⚡</text>
-    <text x="430" y="214" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="14" font-weight="bold">FastAPI Python Server</text>
-    <text x="430" y="235" fill="#A5B4FC" font-family="system-ui, sans-serif" font-size="11">Async RESTful Endpoints &amp; Engine Dispatcher</text>
+    <rect x="385" y="184" width="280" height="72" rx="8" fill="#1E1B4B" stroke="#818CF8" stroke-width="1.5"/>
+    <circle cx="415" cy="220" r="16" fill="#818CF8" fill-opacity="0.2"/>
+    <text x="415" y="226" text-anchor="middle" fill="#818CF8" font-family="system-ui, sans-serif" font-size="15" font-weight="bold">⚡</text>
+    <text x="442" y="212" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="14" font-weight="bold">FastAPI Python Server</text>
+    <text x="442" y="233" fill="#A5B4FC" font-family="system-ui, sans-serif" font-size="10.5">Async REST APIs &amp; JWT Auth</text>
   </g>
 
   <!-- MIDDLE ROW 2: FRONTEND SPA CLIENT -->
   <g filter="url(#cardShadow)">
-    <rect x="665" y="188" width="250" height="68" rx="8" fill="#0C2135" stroke="#38BDF8" stroke-width="1.5"/>
-    <circle cx="695" cy="222" r="16" fill="#38BDF8" fill-opacity="0.2"/>
-    <text x="695" y="228" text-anchor="middle" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="15" font-weight="bold">⚛️</text>
-    <text x="720" y="214" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="14" font-weight="bold">React + Vite + Tailwind</text>
-    <text x="720" y="235" fill="#7DD3FC" font-family="system-ui, sans-serif" font-size="11">High-Perf Geospatial Telemetry Dashboards</text>
+    <rect x="695" y="184" width="280" height="72" rx="8" fill="#0C2135" stroke="#38BDF8" stroke-width="1.5"/>
+    <circle cx="725" cy="220" r="16" fill="#38BDF8" fill-opacity="0.2"/>
+    <text x="725" y="226" text-anchor="middle" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="15" font-weight="bold">⚛️</text>
+    <text x="752" y="212" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="14" font-weight="bold">React + Vite + Tailwind</text>
+    <text x="752" y="233" fill="#7DD3FC" font-family="system-ui, sans-serif" font-size="10.5">Geospatial UI &amp; Real-Time Views</text>
   </g>
 
   <!-- Connections from FastAPI down to Databases & Engines -->
-  <path d="M450 256 V285" stroke="#F43F5E" stroke-width="2"/>
-  <polygon points="450,290 445,281 455,281" fill="#F43F5E"/>
+  <path d="M525 256 V282" stroke="#F43F5E" stroke-width="2"/>
+  <polygon points="525,287 520,278 530,278" fill="#F43F5E"/>
 
-  <path d="M550 256 V273 H740 V285" stroke="#C084FC" stroke-width="2" fill="none"/>
-  <polygon points="740,290 735,281 745,281" fill="#C084FC"/>
+  <path d="M605 256 V270 H835 V282" stroke="#C084FC" stroke-width="2" fill="none"/>
+  <polygon points="835,287 830,278 840,278" fill="#C084FC"/>
 
   <!-- BOTTOM ROW 1: POSTGRESQL + POSTGIS -->
   <g filter="url(#cardShadow)">
-    <rect x="375" y="293" width="250" height="68" rx="8" fill="#250F1D" stroke="#F43F5E" stroke-width="1.5"/>
-    <circle cx="405" cy="327" r="16" fill="#F43F5E" fill-opacity="0.2"/>
-    <text x="405" y="333" text-anchor="middle" fill="#F43F5E" font-family="system-ui, sans-serif" font-size="15" font-weight="bold">🗄️</text>
-    <text x="430" y="319" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="14" font-weight="bold">PostgreSQL + PostGIS</text>
-    <text x="430" y="340" fill="#FDA4AF" font-family="system-ui, sans-serif" font-size="11">Spatial Indexing &amp; High-Volume Vectors</text>
+    <rect x="385" y="290" width="280" height="72" rx="8" fill="#250F1D" stroke="#F43F5E" stroke-width="1.5"/>
+    <circle cx="415" cy="326" r="16" fill="#F43F5E" fill-opacity="0.2"/>
+    <text x="415" y="332" text-anchor="middle" fill="#F43F5E" font-family="system-ui, sans-serif" font-size="15" font-weight="bold">🗄️</text>
+    <text x="442" y="318" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="14" font-weight="bold">PostgreSQL + PostGIS</text>
+    <text x="442" y="339" fill="#FDA4AF" font-family="system-ui, sans-serif" font-size="10.5">Spatial Queries &amp; Vector Indexes</text>
   </g>
 
   <!-- BOTTOM ROW 2: INSAR GEOINTELLIGENCE -->
   <g filter="url(#cardShadow)">
-    <rect x="665" y="293" width="250" height="68" rx="8" fill="#201335" stroke="#C084FC" stroke-width="1.5"/>
-    <circle cx="695" cy="327" r="16" fill="#C084FC" fill-opacity="0.2"/>
-    <text x="695" y="333" text-anchor="middle" fill="#C084FC" font-family="system-ui, sans-serif" font-size="15" font-weight="bold">🛰️</text>
-    <text x="720" y="319" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="14" font-weight="bold">InSAR Telemetry Engine</text>
-    <text x="720" y="340" fill="#E9D5FF" font-family="system-ui, sans-serif" font-size="11">Radar Deformation &amp; Risk Analytics</text>
+    <rect x="695" y="290" width="280" height="72" rx="8" fill="#201335" stroke="#C084FC" stroke-width="1.5"/>
+    <circle cx="725" cy="326" r="16" fill="#C084FC" fill-opacity="0.2"/>
+    <text x="725" y="332" text-anchor="middle" fill="#C084FC" font-family="system-ui, sans-serif" font-size="15" font-weight="bold">🛰️</text>
+    <text x="752" y="318" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="14" font-weight="bold">InSAR Telemetry Engine</text>
+    <text x="752" y="339" fill="#E9D5FF" font-family="system-ui, sans-serif" font-size="10.5">Radar Deformation &amp; Risk Models</text>
   </g>
 
 </svg>
