@@ -7,7 +7,7 @@
 
 <!-- BADGES DE CONTACTO ESTILO FLAT-SQUARE -->
 [![GitHub](https://img.shields.io/badge/GitHub-hxcdevnull-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/hxcdevnull)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Christian%20Ferrin-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Christian%20Ferrin-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/christian-ferr%C3%ADn-alvarez-2576963b8/)
 [![Email](https://img.shields.io/badge/Email-ferrinalvarezchris%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:ferrinalvarezchris@gmail.com)
 [![Location](https://img.shields.io/badge/Location-Remote%20%2F%20Global-24292F?style=flat-square&logo=google-maps&logoColor=EA4335)](#)
 [![Status](https://img.shields.io/badge/Status-Open%20to%20Consulting%20%26%20Leadership-00C853?style=flat-square&logo=statuspage&logoColor=white)](#)
@@ -129,7 +129,7 @@ Engineered high-performance REST APIs with FastAPI and integrated PostGIS spatia
 
 ### 🤝 Let's Connect & Build Resilient Systems
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/christian-ferr%C3%ADn-alvarez-2576963b8/)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hxcdevnull)
 [![Email](https://img.shields.io/badge/Email-Get%20in%20Touch-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ferrinalvarezchris@gmail.com)
 
