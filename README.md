@@ -1,16 +1,14 @@
 <div align="center">
 
-<!-- HEADER BANNER ANIMADO CON ONDAS Y GRADIENTE TECH -->
+<!-- HEADER BANNER TECH -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,6,12,24&height=240&section=header&text=Christian%20Ferrin&fontSize=46&fontAlignY=36&fontAlign=50&desc=Chief%20Technology%20Officer%20%7C%20DevOps%20%26%20Platform%20Architect&descFontSize=20&descAlignY=60&descAlign=50&theme=tokyonight" width="100%" />
 
 <br/>
 
-<!-- BADGES DE CONTACTO ESTILO FLAT-SQUARE -->
-[![GitHub](https://img.shields.io/badge/GitHub-hxcdevnull-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/hxcdevnull)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Christian%20Ferrin-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/christian-ferr%C3%ADn-alvarez-2576963b8/)
-[![Email](https://img.shields.io/badge/Email-ferrinalvarezchris%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:ferrinalvarezchris@gmail.com)
-[![Location](https://img.shields.io/badge/Location-Remote%20%2F%20Global-24292F?style=flat-square&logo=google-maps&logoColor=EA4335)](#)
-[![Status](https://img.shields.io/badge/Status-Open%20to%20Consulting%20%26%20Leadership-00C853?style=flat-square&logo=statuspage&logoColor=white)](#)
+<!-- BADGES DE CONTACTO -->
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Christian%20Ferrin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/christian-ferr%C3%ADn-alvarez-2576963b8/)
+[![GitHub](https://img.shields.io/badge/GitHub-hxcdevnull-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hxcdevnull)
+[![Email](https://img.shields.io/badge/Email-ferrinalvarezchris%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ferrinalvarezchris@gmail.com)
 
 <br/>
 
@@ -20,24 +18,23 @@
 
 ---
 
-## 🏛️ Executive Summary & Leadership Impact
+## 🏛️ Executive Summary & Core Pillars
 
 Executive technologist and hands-on Platform/DevOps Architect specializing in designing resilient distributed systems, mission-critical telemetry/geospatial data platforms, and high-performance engineering cultures.
 
-```
-┌───────────────────────────────┬─────────────────────────────────────────────────────────────┐
-│ Core Competency               │ Strategic & Technical Focus Area                            │
-├───────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│ 🚀 Tech Leadership            │ Architecture Governance · Scaling Teams · FinOps Strategy   │
-│ ⚡ Platform Engineering       │ Container Orchestration · Multi-Stage CI/CD · Infrastructure│
-│ 🛰️ Geospatial Intelligence    │ InSAR Satellite Telemetry · High-Throughput Spatial Engines │
-│ 🛡️ Reliability & Security    │ Reverse Proxy Hardening (Nginx) · SSL/TLS · Zero-Trust      │
-└───────────────────────────────┴─────────────────────────────────────────────────────────────┘
-```
+<br/>
+
+<div align="center">
+
+| 🚀 Leadership & Strategy | ⚡ Platform & DevOps | 🛰️ Geointelligence & Data | 🛡️ SRE & Reliability |
+| :--- | :--- | :--- | :--- |
+| • Architecture Governance<br/>• Team Scaling & Mentorship<br/>• FinOps & Cost Economics | • Docker Containerization<br/>• Multi-Stage Pipelines<br/>• Automated Deployments | • InSAR Satellite Telemetry<br/>• Spatial Big Data Engines<br/>• Predictive Risk Models | • Nginx Hardening & SSL<br/>• Systemd & Linux Admin<br/>• Zero-Downtime Releases |
+
+</div>
 
 ---
 
-## 🛠️ Tech Stack & Engineering Arsenal
+## 🛠️ Engineering Arsenal & Tooling
 
 <div align="center">
 
@@ -47,11 +44,11 @@ Executive technologist and hands-on Platform/DevOps Architect specializing in de
 
 <br/><br/>
 
-| Category | Tooling & Ecosystem |
+| Domain | Core Ecosystem |
 | :--- | :--- |
 | **Containers & Virtualization** | `Docker` `Docker Compose` `Multi-Stage Image Optimization` `Rootless Containers` |
 | **Servers & OS Administration** | `Linux (Debian/Ubuntu)` `Bash / Shell Scripting` `Systemd Services` `Nginx Reverse Proxy` |
-| **Backend & Spatial Engines** | `Python (FastAPI, Flask)` `Node.js` `RESTful API Design` `PostgreSQL` `PostGIS Spatial Indexing` |
+| **Backend & Spatial Engines** | `Python (FastAPI, Flask)` `Node.js` `RESTful APIs` `PostgreSQL` `PostGIS Spatial Indexing` |
 | **CI/CD & DevOps Automation** | `Git` `GitHub Actions` `Automated Deployment Pipelines` `Environment Orchestration` |
 | **Frontend & Visualization** | `React` `JavaScript (ES6+)` `Tailwind CSS` `Vite` `Interactive Map Engines` |
 | **Specialized Processing** | `InSAR Satellite Radar Analytics` `Geospatial Big Data` `Telemetry Risk Models` |
@@ -60,31 +57,36 @@ Executive technologist and hands-on Platform/DevOps Architect specializing in de
 
 ---
 
-## 🏗️ Production Architecture Blueprint
+## 🏗️ Production Architecture & Delivery Blueprint
 
 ```mermaid
-flowchart TD
-    classDef client fill:#1E293B,stroke:#38BDF8,stroke-width:2px,color:#fff;
-    classDef proxy fill:#0F172A,stroke:#10B981,stroke-width:2px,color:#fff;
-    classDef backend fill:#1E1B4B,stroke:#818CF8,stroke-width:2px,color:#fff;
-    classDef data fill:#31103F,stroke:#EC4899,stroke-width:2px,color:#fff;
-
-    subgraph CI_CD["🚀 CI / CD & Deployment Pipeline"]
-        Git["Git Commit / Tag"] --> GH["GitHub Actions Workflow"]
-        GH --> Test["Automated Linter & Tests"]
-        Test --> Build["Docker Multi-Stage Build"]
-        Build --> Deploy["Production Linux Server (VPS)"]
+%%{init: {'theme': 'base', 'themeVariables': { 'darkMode': true, 'primaryColor': '#1e293b', 'primaryTextColor': '#f8fafc', 'primaryBorderColor': '#38bdf8', 'lineColor': '#38bdf8', 'secondaryColor': '#0f172a', 'tertiaryColor': '#1e1b4b', 'clusterBkg': '#090d16', 'clusterBorder': '#334155', 'edgeLabelBackground': '#0f172a', 'nodeBorder': '#38bdf8'}}}%%
+flowchart LR
+    subgraph CI["🚀 CI / CD & Deployment Pipeline"]
+        Git["<b>Git Commit</b><br/>Feature / Hotfix"] --> GH["<b>GitHub Actions</b><br/>Build & Lint Matrix"]
+        GH --> Build["<b>Docker OCI</b><br/>Multi-Stage Optimized Image"]
     end
 
-    subgraph PROD["🌐 Hardened Production Environment"]
-        Deploy --> Nginx["Nginx Reverse Proxy & SSL (Certbot)"]:::proxy
+    subgraph PROD["🌐 Hardened Production Environment (Linux VPS)"]
+        Build --> Deploy["<b>Automated Deploy</b><br/>Docker Compose"]
+        Deploy --> Nginx["<b>Nginx Gateway</b><br/>Reverse Proxy · SSL/TLS (Certbot)"]
         
-        Nginx -->|"REST / API Requests"| API["FastAPI / Python Application Server"]:::backend
-        Nginx -->|"Static Assets & SPA"| UI["React + Tailwind Client"]:::client
+        Nginx -->|"HTTP / REST API"| API["<b>FastAPI Application Server</b><br/>Python Async Worker Engine"]
+        Nginx -->|"Static Assets & SPA"| UI["<b>React Client Application</b><br/>Tailwind CSS + Vite SPA"]
         
-        API -->|"Spatial Queries"| DB[("PostgreSQL + PostGIS")]:::data
-        API -->|"Telemetry & Radar Pipelines"| Engines["InSAR Geointelligence Engines"]:::backend
+        API -->|"Spatial Query Optimization"| DB[("<b>PostgreSQL + PostGIS</b><br/>Indexed Geospatial Storage")]
+        API -->|"Telemetry Ingestion"| Engine["<b>InSAR Analytics Engine</b><br/>Satellite Radar Deformation Models"]
     end
+
+    style Git fill:#1e293b,stroke:#38bdf8,stroke-width:2px,color:#ffffff
+    style GH fill:#1e293b,stroke:#38bdf8,stroke-width:2px,color:#ffffff
+    style Build fill:#1e293b,stroke:#38bdf8,stroke-width:2px,color:#ffffff
+    style Deploy fill:#1e293b,stroke:#10b981,stroke-width:2px,color:#ffffff
+    style Nginx fill:#0f172a,stroke:#10b981,stroke-width:2px,color:#ffffff
+    style API fill:#1e1b4b,stroke:#818cf8,stroke-width:2px,color:#ffffff
+    style UI fill:#1e293b,stroke:#38bdf8,stroke-width:2px,color:#ffffff
+    style DB fill:#31103f,stroke:#f43f5e,stroke-width:2px,color:#ffffff
+    style Engine fill:#1e1b4b,stroke:#818cf8,stroke-width:2px,color:#ffffff
 ```
 
 ---
@@ -108,17 +110,6 @@ Implemented hardened Linux server topologies using container isolation, Nginx re
 <br/>
 Engineered high-performance REST APIs with FastAPI and integrated PostGIS spatial indexing for instant geographic query execution over dense multi-polygon vector datasets.
 </details>
-
----
-
-## 📊 Dynamic GitHub Activity
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=hxcdevnull&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" height="150" alt="GitHub Stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hxcdevnull&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" height="150" alt="Top Languages" />
-
-</div>
 
 ---
 
