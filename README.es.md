@@ -21,7 +21,7 @@ Con **más de 20 años en operaciones de atención al cliente bilingüe (EN/ES)*
 * **Orquestación de Flujos e Integraciones:** `n8n` (self-hosted), Webhooks orientados a eventos, APIs REST, transformación de payloads JSON, sincronización automatizada de CRM y bases de datos (`PostgreSQL`, `NocoDB`).
 * **IA Conversacional y RAG:** Agentes de IA multicanal para **WhatsApp Business API, Telegram Bot API y Webchat**; calificación automática de leads, inferencia con LLMs locales (`Ollama`) y embeddings semánticos (`nomic-embed-text`).
 * **Infraestructura Self-Hosted y Seguridad:** Linux (`Ubuntu`), `Docker` y `Docker Compose` con redes internas aisladas, reverse proxy con `Caddy` / `Nginx`, `Cloudflare Tunnels` (acceso Zero Trust sin exposición pública de puertos de backend) y endurecimiento con `UFW`.
-* **Web, Datos y UX/UI:** Landing pages orientadas a conversión conectadas directamente a pipelines de webhooks, junto con tableros operativos (`Metabase`).
+* **Web, UX/UI y Growth (GEO/pSEO):** Diseño UX/UI certificado por Google, landing pages orientadas a conversión conectadas a pipelines de webhooks, SEO Programático (pSEO), optimización para buscadores de IA (GEO/AEO) y tableros operativos (`Metabase`).
 
 ---
 

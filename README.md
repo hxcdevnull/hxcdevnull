@@ -21,7 +21,7 @@ With **20+ years in bilingual customer operations (EN/ES)**, I bridge the gap be
 * **Workflow Orchestration & Integrations:** `n8n` (self-hosted), event-driven Webhooks, REST APIs, JSON payload transformation, automated CRM/DB sync (`PostgreSQL`, `NocoDB`).
 * **Conversational AI & RAG:** Multichannel AI agents for **WhatsApp Business API, Telegram Bot API, and Webchat**; automated lead scoring, local LLM inference (`Ollama`), and semantic embeddings (`nomic-embed-text`).
 * **Self-Hosted Infrastructure & Security:** Linux (`Ubuntu`), `Docker` & `Docker Compose` with isolated internal networks, `Caddy` / `Nginx` reverse proxying, `Cloudflare Tunnels` (Zero Trust ingress with zero exposed backend ports), and `UFW` host hardening.
-* **Web, Data & UX/UI:** Conversion-focused landing pages wired directly to backend webhook pipelines, plus operational dashboards (`Metabase`).
+* **Web, UX/UI & Growth (GEO/pSEO):** Google-certified UX/UI Design, conversion-focused landing pages wired to backend webhook pipelines, Programmatic SEO (pSEO), AI Search Optimization (GEO/AEO), and operational dashboards (`Metabase`).
 
 ---
 
